@@ -61,6 +61,7 @@ header.primary ul li a{
   padding: 8px 16px;
   border-radius: 20px;
   transition: 0.5s;
+  border: 1px solid white;
 }
 header.primary ul li a:hover, header.primary ul li a:active{
   background-color: rgba(0,0,0,.8);
