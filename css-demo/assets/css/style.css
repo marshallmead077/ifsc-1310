@@ -17,7 +17,27 @@ html {
   width:80vw;
   margin:40px auto;
 }
+.img-right{
+float:right;
+margin: 10px 0 10px 20px;
+border: 4px soild #1c85c2;
+padding: 5px 5px 20px 5px;
+border-radius:4px;
+}
+.img-left{
+  float:left;
+  margin:10px 20px 10px 0;
+  padding:5px;
+  border-radius: 4px;
+}
+.img-center{
+  display:block;
+  margin:20px auto;
+  border: 5px solid #9c9c13;
+  padding:5px;
+  border-radius: 5px;
 
+}
 /* ---------------Responsive images----------------- */
 img {
   max-width:100%;
@@ -28,10 +48,11 @@ img {
 body{
 font-family: 'Raleway', sans-serif;
 margin:0;
+line-height: 1.2rem;
 }
 
 header.primary{
-  background-color:#3b638b;
+  background-color:#18c712;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='16' viewBox='0 0 20 16'%3E%3Cg fill='%23172635' fill-opacity='0.2'%3E%3Cpath fill-rule='evenodd' d='M0 .04C2.6.22 4.99 1.1 7 2.5A13.94 13.94 0 0 1 15 0h4c.34 0 .67.01 1 .04v2A12 12 0 0 0 7.17 12h5.12A7 7 0 0 1 20 7.07V14a5 5 0 0 0-3-4.58A5 5 0 0 0 14 14H0V7.07c.86.12 1.67.4 2.4.81.75-1.52 1.76-2.9 2.98-4.05C3.79 2.83 1.96 2.2 0 2.04v-2z'/%3E%3C/g%3E%3C/svg%3E");
   text-align:center;
   text-shadow:1px 1px #000000;
@@ -83,9 +104,9 @@ header.primary nav ul li{
 }
 
 header.primary ul li a{
-  color:#ffffff;
+  color:#f1eaea;
   text-decoration:none;
-  background-color:rgba(0,0,0,.4);
+  background-color:rgba(214, 18, 18, 0.4);
   padding:8px 16px;
   border-radius:20px;
   transition:.5s;
@@ -141,6 +162,38 @@ time.post-date{
 .post a:hover{
   text-decoration: none;
 }
+
+#demo h2{
+  border-left: 7.5px solid #3b638b;
+  padding:10px;
+}
+#demo a{
+  color:#b95d11;
+}
+table{
+  border:2px solid #000000;
+  border-collapse:collapse; 
+  width:100%;
+
+}
+tr:nth-child(even){
+background-color:#ce630c;
+}
+tr:hover{
+  background-color: #861564;
+}
+th{
+  background-color:#18c03c;
+  color:#0e0f0f;
+  padding:10px;
+}
+td{
+border:1px solid #0b0111;
+padding:5px;
+}
+
+
+/* Attribute Selector */
 aside[role="complementary"]{
   background-color: #18c03c;
   color: #3b638b;
@@ -157,7 +210,7 @@ aside artical.widget{
 }
 
 aside article.widget a:last-of-type {
-  color:#861564
+  color:#861564;
   display:block;
   margin-top:20px;
   text-align:right;
@@ -172,12 +225,12 @@ aside article.widget a{
   }
 
   #colophon{
-    background-color:#9dcc1d;
+    background-color:#0c7409;
   }
   #colophon h6{
     padding:20px;
     margin:0;
-    color:#5a1886;
+    color:#0b0111;
     text-align:center;
     font-size:.9rem;
     text-transform:uppercase;
