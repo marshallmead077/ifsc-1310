@@ -5,9 +5,8 @@
 <title>Positioning Lab</title>
 <style type="text/css">
 * {
-	margin: 15px;
-	padding: 10px;
-	height: 25rem;
+	margin: 0px;
+	padding: 0px;
 }
 body {
 	background-color: #ECECEC;
@@ -16,6 +15,13 @@ body {
 	color: #FFF;
 	text-align: center;
 	line-height: 24px;
+}
+.tile{
+	width:370px;
+  height:125px;
+  float:left;
+  margin-left:20px;
+  margin-bottom:20px;
 }
 #wrapper {
 	background-color: #FFF;
@@ -30,36 +36,44 @@ body {
 	width: 800px;
 	margin-right: auto;
 	margin-left: auto;
+	padding-top:20px;
 }
 #red {
 	background-color: #900;
-	width:325px;
+	width:370px;
 	height:125px;
 	float:left;
+	margin-left:20px;
+	margin-bottom:20px;
 }
 #green {
 	background-color: #090;
-	width:325px;
+	width:370px;
 	height:125px;
 	float:left;
+	margin-left:20px;
+	margin-bottom:20px;
 }
 #blue {
 	background-color: #00F;
-	width:325px;
+	width:370px;
 	height:125px;
 	float:left;
+	margin-left:20px;
+	margin-bottom:20px;
 }
 #purple {
 	background-color: #63C;
-	width:325px;
+	width:370px;
 	height:125px;
 	float:left;
+	margin-left:20px;
+	margin-bottom:20px;
 }
 #footer {
 	background-color: #666;
-	height: 10px;
-	width: 47rem;
-	float: right;
+	clear:both;
+	margin:20px;
 	
 }
 h1 {
@@ -73,10 +87,10 @@ h1 {
 <body>
 <h1>Exercise 1</h1>
 <div id="wrapper">
-  <div id="red">Red</div>
-  <div id="green">Green</div>
-  <div id="blue">Blue</div>
-  <div id="purple">Purple</div>
+  <div id="red" class="tile">Red</div>
+  <div id="green" class="tile">Green</div>
+  <div id="blue" class="tile">Blue</div>
+  <div id="purple" class="tile">Purple</div>
   <div id="footer">Footer</div>
 </div>
 </body>
