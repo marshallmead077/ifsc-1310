@@ -11,16 +11,17 @@ html {
 
  .spacex img{
   position: absolute;
-width: 60%;
+width: 60vw;
 height: 100px;
 left: 480px;
 top: 13px;
  }
+ 
   header.primary{
   background-color: #192543;
  text-align: center;
  padding: 40px;
- width: 100%;
+ width: 100vw;
 height: 203px;
 left: 0px;
 top: 0px;
@@ -61,7 +62,7 @@ header.primary ul li a:active{
 
   .section1-index {
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     left: 0px;
     top: 200px;
@@ -69,8 +70,8 @@ header.primary ul li a:active{
 
   .section1-index img{
     position: absolute;
-width: 100%;
-height: 85%;
+width: 100vw;
+height: 95%;
 left: 0px;
 top: 0px;
 
@@ -83,7 +84,7 @@ top: 0px;
   .section1-main-content-index p {
     position: absolute;
     width: 1110px;
-    height: 566px;
+    height: 420px;
     left:100px;
     top: 150px;
 font-family: 'Roboto Condensed', sans-serif;
@@ -93,6 +94,9 @@ font-size: 30px;
 line-height: 52px;
 color: #000000;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+background-color: #ffeeee98;
+
+
   }
   
   .section1-main-content-index h2{
@@ -115,21 +119,19 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    text-align: center;
    padding: 40px;
    width: 100%;
-  height: 203px;
-  left: 0px;
-  top: 0px;
+  height: 200px;
   }
 
   header.primary2 h2{
     position: absolute;
     width: 1028px;
     height: 80px;
-    left: 450px;
-    top: 1000px;
+    left: 200px;
+    top: 830px;
     
     font-family: 'IBM Plex Mono';
     font-style: italic;
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 48px;
     line-height: 62px;
     
@@ -139,38 +141,40 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   .section2-index img{
     position: absolute;
 width: 100%;
-height: 85%;
+height: 95%;
 left: 0px;
-top: 1150px;}
+top: 950px;}
 
 .section2-main-content-index h3{
   position: absolute;
   width: 615px;
   height: 118px;
   left: 100px;
-  top: 1150px;
+  top: 950px;
 font-family: 'IBM Plex Mono';
 font-style: normal;
 font-weight: 400;
 font-size: 80px;
 line-height: 52px;
-color: #000000;
+color: #f0ecec;
 text-shadow: 0px 4px 4px rgba(250, 244, 244, 0.25);
 }
 
 .section2-main-content-index ul {
   position: absolute;
   width: 1110px;
-  height: 566px;
+  height: 420px;
   left:100px;
-  top: 1300px;
+  top: 1080px;
 font-family: 'Roboto Condensed', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 30px;
 line-height: 52px;
 color: #ebe6e6;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+background-color: #373b448a;
+
 }
 
 header.primary3{
@@ -179,15 +183,13 @@ header.primary3{
  padding: 40px;
  width: 100%;
 height: 1700px;
-left: 0px;
-top: 0px;
 }
 header.primary3 h2{
   position: absolute;
-  width: 1300px;
+  width: 1000px;
   height: 80px;
-  left: 350px;
-  top: 1900px;
+  left: 320px;
+  top: 1580px;
   font-family: 'IBM Plex Mono';
 font-style: italic;
 font-weight: 700;
@@ -200,24 +202,24 @@ color: #FFF7F7;
 .section3-index img{
   position: absolute;
   width: 100%;
-  height: 85%;
+  height: 95%;
   left: 0px;
-  top: 2114px;}
+  top: 1800px;}
 
   .section3-main-content-index h3{
     position: absolute;
-width: 1206px;
+width: 1000px;
 height: 773px;
-left: 400px;
-top: 2120px;
+left: 200px;
+top: 1800px;
 
 font-family: 'IBM Plex Mono';
 font-style: normal;
-font-weight: 400;
+font-weight: 400px;
 font-size: 80px;
 line-height: 52px;
-color: #000000;
-text-shadow: 0px 4px 4px rgba(250, 244, 244, 0.25);
+color: #ebebeb;
+text-shadow: 0px 4px 4px rgba(26, 24, 24, 0.773);
 
 
   }
@@ -225,25 +227,27 @@ text-shadow: 0px 4px 4px rgba(250, 244, 244, 0.25);
   .section3-main-content-index ul{
     position: absolute;
     width: 1110px;
-    height: 566px;
-    left:400px;
-    top: 2300px;
+    height: 420px;
+    left:220px;
+    top: 1960px;
   font-family: 'Roboto Condensed', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 30px;
   line-height: 52px;
   color: #ebe6e6;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
-
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color:#160c0c4b;
   }
 
 .section4-index img{
   position: absolute;
-  width: 100%;
-  height: 85%;
-  left: 0px;
-  top: 2114px;
+  width: 30%;
+  height: 50%;
+  left: 1050px;
+  top: 2450px;
+  mix-blend-mode: normal;
+border-radius: 50px;
 }
 
   
