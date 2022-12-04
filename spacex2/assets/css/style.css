@@ -91,3 +91,38 @@ h3{
     max-width: 100%;
     
 }
+ table{
+	background-color: aqua;
+	display: block;
+	border-collapse: collapse;
+	text-align: center;
+    width:100%;  
+    margin-left:1vw;
+   
+}
+th,td{
+    border-bottom: 1px solid rgb(15, 15, 17);
+    border: 1px solid;
+}
+tr:hover{
+	background-color: greenyellow;
+}
+tr:nth-child(even){
+	background-color: rgba(18, 194, 112, 0.925);
+}
+th{
+	background-color: #28e018;
+	color:rgb(248, 242, 242);
+	font-family: 'Zen Dots', cursive;
+}
+caption{
+	background-color: #1183cf;
+	font-family: 'Zen Dots', cursive;
+	font-style: oblique;
+	color:#ebe6e6;
+	font-size: larger;
+}
+td{
+	color:#131010;
+    font-family: 'Poppins', sans-serif;
+}

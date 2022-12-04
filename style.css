@@ -1,0 +1,50 @@
+html {
+	box-sizing: border-box;
+}
+*,*:before,*:after {
+	box-sizing: inherit;
+}
+body{
+	background-color: rgb(21, 185, 21);
+}
+h1{
+	color:white;
+	font-family: 'Kanit', sans-serif;
+
+    font-family: 'Sono', sans-serif;
+	font-size: 50px;
+	margin-left: 1vw;
+    text-decoration: underline solid 5px;
+	
+}
+p{
+color:white;
+font-family: 'Nerko One', cursive;
+font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 52px;
+	margin-left:1vw;
+}
+li{
+    color:white;
+	font-family: 'Kanit', sans-serif;
+
+    font-family: 'Sono', sans-serif;
+	font-size: 30px;
+	margin-left: 1vw;
+}
+a{
+    color:white;
+
+}
+header.primary{
+	background-color:#b812c7;
+	text-align:center;
+	text-shadow:1px 1px #000000;
+	color:#ffffff;
+	padding-top:40px;
+  padding-right:40px;
+  padding-bottom:40px;
+  padding-left:40px;
+}
