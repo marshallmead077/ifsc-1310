@@ -126,3 +126,33 @@ td{
 	color:#131010;
     font-family: 'Poppins', sans-serif;
 }
+
+.pictures{
+    margin:40px auto;
+    width:60vw;
+    /* Set Max Content Width */
+    max-width:700px;
+}
+.pictures.slider-nav img{
+max-width: 80%;
+}
+/* Customize Previous/Next/Dots/Autoplay */
+
+.slick-autoplay-toggle-button,
+.slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
+.slick-dots li button .slick-dot-icon,
+.slick-dots li.slick-active button .slick-dot-icon {
+  color: rgb(12, 12, 12);
+}
+
+/* Customize Previous/Next/Dots/Autoplay - Active State */
+
+.slick-next:focus .slick-next-icon,
+.slick-next:focus .slick-prev-icon,
+.slick-prev:focus .slick-next-icon,
+.slick-prev:focus .slick-prev-icon,
+.slick-dots li button:focus .slick-dot-icon:before,
+.slick-dots li.slick-active button:focus .slick-dot-icon,
+.slick-autoplay-toggle-button:focus 
+{
+    color:rgb(247, 15, 15);}

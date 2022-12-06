@@ -1,5 +1,4 @@
-
-$('.pictures.slider-for').slick({
+$('.slider-for').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
@@ -9,7 +8,7 @@ $('.pictures.slider-for').slick({
     regionLabel: 'main image carousel'
   });
   
-  $('.pictures.slider-nav').slick({
+  $('.slider-nav').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     asNavFor: '.slider-for',
